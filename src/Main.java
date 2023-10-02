@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Input a name followed by a comma then the age");
+        System.out.println("For example: Dale,22");
+        System.out.println("An input of nothing will stop the program");
+
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> nameList = new ArrayList<>();
         ArrayList<Integer> ageList = new ArrayList<>();
